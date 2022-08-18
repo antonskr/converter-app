@@ -1,0 +1,32 @@
+.currencies {
+  overflow-y: hidden;
+  height: 100%;
+  display: flex;
+
+  & .currencies__items {
+    width: 70%;
+    padding-right: 2em;
+    overflow-y: scroll;
+  }
+
+  & .select {
+    width: 30%;
+    min-height: 300px;
+    overflow: hidden;
+    padding-left: 2em;
+
+    & > p {
+      font-size: 0.8em;
+      padding-bottom: 1em;
+    }
+  }
+
+  & .item {
+    display: flex;
+    gap: 0.5em;
+    margin: 0.5em 0;
+    padding: 0.25em 1em;
+    border-radius: 5px;
+    background-color: #f3f3f3;
+  }
+}
